@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("/api/announcement")
 public class AnnouncementRestAPIs {
@@ -18,22 +19,24 @@ public class AnnouncementRestAPIs {
         this.announcementService = announcementService;
     }
 
-    @GetMapping("/")
+
+    @GetMapping("/all")
     public List<Announcement> getAnnouncement(){
+        System.out.printf("GOT REQ");
         return announcementService.getAnnouncements();
     }
 
-    @PostMapping
+    @PostMapping("/add")
     public void addNewAnnouncement(@RequestBody Announcement announcement){
         announcementService.addAnnouncement(announcement);
     }
 
-    @DeleteMapping(path = "{id}")
+    @DeleteMapping(path = "/delete/{id}")
     public void deleteAnnouncement(@PathVariable("id") Long id){
         announcementService.deleteAnnouncement(id);
     }
 
-    @PutMapping(path = "{id}")
+    @PutMapping(path = "/update/{id}")
     public void updateAnnouncement(@PathVariable("id") Long id,
                               @RequestParam(required = false) String title,
                               @RequestParam(required = false) String description){
