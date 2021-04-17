@@ -23,6 +23,12 @@ public class AnnouncementService {
         return announcementRepository.findAll();
     }
 
+    public Announcement getAnnouncement(Long id){
+        Announcement announcement = announcementRepository.findById(id)
+                .orElseThrow(() -> new IllegalStateException("Announcement with id: " + id +" does not exists!!"));
+        return announcement;
+    }
+
     public void addAnnouncement(Announcement announcement){
         announcementRepository.save(announcement);
     }
@@ -47,5 +53,4 @@ public class AnnouncementService {
             announcement.setDescription(description);
         }
     }
-
 }

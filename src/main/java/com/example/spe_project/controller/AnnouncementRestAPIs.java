@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @CrossOrigin(origins = "http://localhost:4200")
 @RestController
@@ -19,11 +20,16 @@ public class AnnouncementRestAPIs {
         this.announcementService = announcementService;
     }
 
-
     @GetMapping("/all")
     public List<Announcement> getAnnouncement(){
-        System.out.printf("GOT REQ");
         return announcementService.getAnnouncements();
+    }
+
+    @GetMapping(path = "/get/{id}")
+    public Announcement getAnnouncement(@PathVariable("id") Long id){
+
+        Announcement announcement = announcementService.getAnnouncement(id);
+        return announcement;
     }
 
     @PostMapping("/add")
@@ -36,11 +42,10 @@ public class AnnouncementRestAPIs {
         announcementService.deleteAnnouncement(id);
     }
 
-    @PutMapping(path = "/update/{id}")
+    @GetMapping(path = "/update/{id}")
     public void updateAnnouncement(@PathVariable("id") Long id,
                               @RequestParam(required = false) String title,
                               @RequestParam(required = false) String description){
         announcementService.updateAnnouncement(id, title, description);
     }
-
 }

@@ -21,7 +21,7 @@ public class Announcement {
     private String description;
 
     @NotBlank
-    @JsonFormat(shape= JsonFormat.Shape.STRING, pattern="dd-MM-yyyy")
+    @JsonFormat(shape= JsonFormat.Shape.STRING, pattern="dd-MM-yyyy", timezone = "Asia/Kolkata")
     @Temporal(TemporalType.DATE)
     @NotNull
     private Date date;
