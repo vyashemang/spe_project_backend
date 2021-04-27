@@ -1,0 +1,2 @@
+[multipass-ubuntu]
+10.62.152.41 ansible_ssh_user=ubuntu remote_user=ubuntu

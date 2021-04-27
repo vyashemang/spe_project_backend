@@ -1,0 +1,51 @@
+---
+- name: Deploy application to remote
+  hosts: all
+  tasks:
+    - name: Pull database image
+      docker_image:
+        name: mysql:8.0.23
+        source: pull
+
+    - name: Pull back-end image
+      docker_image:
+        name: vyashemang/springboot-backend
+        source: pull
+
+    - name: Pull front-end image
+      docker_image:
+        name: vyashemang/angular-frontend
+        source: pull
+
+    - name: Create docker network
+      docker_network:
+        name: mess-mysql
+        ipam_options:
+          subnet: '172.18.0.0/16'
+    
+    - name: Create database container
+      docker_container:
+        name: mysql-con1
+        image: mysql:8.0.23
+        env:
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_DATABASE: mess
+        networks:
+          - name: mess-mysql
+            ipv4_address: "172.18.0.22"
+    
+    - name: Create back-end container
+      docker_container: 
+        name: springboot-con1
+        image: vyashemang/springboot-backend
+        ports:
+          - "8082:8082"
+        networks:
+          - name: mess-mysql
+
+    - name: Create front-end container
+      docker_container:
+        name: angular-con1
+        image: vyashemang/angular-frontend
+        ports:
+          - "8087:80"
