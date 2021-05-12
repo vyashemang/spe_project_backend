@@ -166,8 +166,8 @@ class SpeProjectApplicationTests {
         assert announcementService.getAnnouncements() != null;
     }
 
-    @Test
-    public void deleteAnnouncement(){
-        announcementService.deleteAnnouncement(10L);
-    }
+//    @Test
+//    public void deleteAnnouncement(){
+//        announcementService.deleteAnnouncement(10L);
+//    }
 }
