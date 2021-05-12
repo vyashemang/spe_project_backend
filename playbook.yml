@@ -14,7 +14,7 @@
 
     - name: Pull front-end image
       docker_image:
-        name: vyashemang/angular-frontend:latest
+        name: vyashemang/angular-frontend2:latest
         source: pull
 
     - name: Create docker network
@@ -46,6 +46,6 @@
     - name: Create front-end container
       docker_container:
         name: angular-con1
-        image: vyashemang/angular-frontend
+        image: vyashemang/angular-frontend2
         ports:
           - "8087:80"
