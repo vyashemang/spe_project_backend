@@ -1,0 +1,38 @@
+2021-05-14 10:15:46.024 [http-nio-8082-exec-1] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - add announcement
+2021-05-14 10:15:50.294 [http-nio-8082-exec-2] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get all announcement
+2021-05-14 10:16:11.201 [http-nio-8082-exec-5] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get 11 announcement
+2021-05-14 10:16:17.273 [http-nio-8082-exec-6] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - delete announcement
+2021-05-14 10:16:22.942 [http-nio-8082-exec-9] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get all announcement
+2021-05-14 10:16:55.579 [http-nio-8082-exec-1] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - add announcement
+2021-05-14 10:16:57.233 [http-nio-8082-exec-2] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get all announcement
+2021-05-14 10:18:03.115 [http-nio-8082-exec-5] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - update announcement
+2021-05-14 10:18:08.008 [http-nio-8082-exec-6] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get all announcement
+2021-05-14 10:18:18.727 [http-nio-8082-exec-9] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get 13 announcement
+2021-05-14 10:30:36.706 [http-nio-8082-exec-1] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get all announcement
+2021-05-14 10:30:39.132 [http-nio-8082-exec-2] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get 13 announcement
+2021-05-14 10:30:44.905 [http-nio-8082-exec-5] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get 11 announcement
+2021-05-14 10:30:48.149 [http-nio-8082-exec-7] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get all announcement
+2021-05-14 10:30:49.330 [http-nio-8082-exec-8] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get all announcement
+2021-05-14 10:35:35.540 [http-nio-8082-exec-1] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get all announcement
+2021-05-14 10:35:44.669 [http-nio-8082-exec-3] ERROR com.example.spe_project.controller.AnnouncementRestAPIs - announcement 15 not found
+2021-05-14 10:43:04.415 [http-nio-8082-exec-1] ERROR com.example.spe_project.controller.AnnouncementRestAPIs - announcement 15 not found
+2021-05-14 10:43:11.368 [http-nio-8082-exec-3] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - update announcement
+2021-05-14 11:12:18.213 [http-nio-8082-exec-1] ERROR com.example.spe_project.controller.AnnouncementRestAPIs - announcement 15 not found
+2021-05-14 11:12:22.137 [http-nio-8082-exec-3] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get 11 announcement
+2021-05-14 11:12:25.140 [http-nio-8082-exec-5] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get 11 announcement
+2021-05-14 11:12:28.682 [http-nio-8082-exec-7] ERROR com.example.spe_project.controller.AnnouncementRestAPIs - announcement 15 not found
+2021-05-14 11:12:29.967 [http-nio-8082-exec-8] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get all announcement
+2021-05-14 11:12:32.307 [http-nio-8082-exec-9] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get all announcement
+2021-05-14 22:40:43.840 [http-nio-8082-exec-8] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get all announcement
+2021-05-14 22:41:16.555 [http-nio-8082-exec-2] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get all announcement
+2021-05-14 22:42:24.174 [http-nio-8082-exec-5] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get all announcement
+2021-05-14 22:42:40.255 [http-nio-8082-exec-7] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get all announcement
+2021-05-14 22:46:36.068 [http-nio-8082-exec-9] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get all announcement
+2021-05-14 22:46:37.810 [http-nio-8082-exec-10] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get all announcement
+2021-05-14 22:48:22.631 [http-nio-8082-exec-2] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get all announcement
+2021-05-14 22:59:34.024 [http-nio-8082-exec-4] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get all announcement
+2021-05-14 22:59:38.731 [http-nio-8082-exec-5] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get all announcement
+2021-05-14 23:00:24.120 [http-nio-8082-exec-7] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get all announcement
+2021-05-14 23:00:25.843 [http-nio-8082-exec-10] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get all announcement
+2021-05-15 00:01:15.981 [http-nio-8082-exec-3] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get all announcement
+2021-05-15 00:01:28.458 [http-nio-8082-exec-5] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get all announcement
