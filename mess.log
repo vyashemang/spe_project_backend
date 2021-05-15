@@ -36,3 +36,4 @@
 2021-05-14 23:00:25.843 [http-nio-8082-exec-10] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get all announcement
 2021-05-15 00:01:15.981 [http-nio-8082-exec-3] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get all announcement
 2021-05-15 00:01:28.458 [http-nio-8082-exec-5] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get all announcement
+2021-05-15 13:18:26.919 [http-nio-8082-exec-1] INFO  com.example.spe_project.controller.AnnouncementRestAPIs - get all announcement
